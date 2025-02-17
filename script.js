@@ -8,7 +8,7 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// FAQ
+// FAq
 document.querySelectorAll('.faqbox').forEach(box => {
     box.addEventListener('click', () => {
         const content = box.querySelector('.faq-content');
